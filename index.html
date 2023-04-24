@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+
+<body>
+<!-- Navbar  Section Start -->
+<header>
+    <a href="#" class="logo">Rahul <span>Yadav..</span></a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#proj">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="bx bx-moon" id="darkmode"></div>
+    </ul>
+</header>
+<!-- Navbar Section End -->
+<!-- Home Section Start -->
+<section class="home" id="home">
+    <div class="social">
+        <a href="https://github.com/RahulY29"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/rahul-yadav-461830223/"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+    </div>
+    <div class="home-img">
+        <img src="Rahul.png" alt="">
+    </div>
+    <div class="home-text">
+        <span>Hello, I'm</span>
+        <h1>Rahul Yadav</h1>
+        <h4>I am Passionate <span>Front-End Developer</span>.</h4>
+        <a href="#about" class="btn">About me</a>
+    </div>
+</section>
+<!-- Home Section End -->
+<!-- About Section Start -->
+
+<section class="about" id="about">
+    <div class="heading">
+        <h2>About Me</h2>
+        <span>Introduction</span>
+    </div>
+
+    <div class="about-container">
+        <div class="about-img">
+             <img src="about.jpg" alt="aboutImage"> 
+        </div>
+        <div class="about-text">
+            <p>I'm Front-End Developer.
+                 I'm From INDIA. I code and create web elements for amazing people around the world. 
+                </p>
+            <div class="information">
+                <div class="info-box">
+                    <i class='bx bxs-user'></i>
+                    <span>Rahul Yadav</span>
+                </div>
+
+                <div class="info-box">
+                    <i class='bx bxs-phone'></i>
+                    <span>+91 8268143979</span>
+                </div>
+
+                <div class="info-box">
+                    <i class='bx bxs-envelope'></i>
+                    <span>yadavrahul3299@gmail.com</span>
+                </div>
+            </div>
+            <a href="#contact" class="btn">Contact me!</a>
+        </div>
+    </div>
+</section>
+<!-- About Section End -->
+
+<!-- Skills Section Start -->
+
+<section class="skills" id="skills">
+    <div class="heading">
+        <h2>Skills</h2>
+        <span>My Skills</span>
+    </div>
+
+    <div class="skills-container">
+        <div class="bars">
+
+            <div class="bars-box">
+                <h3>HTML</h3>
+                <span>80%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar html-bar"></div>
+            </div>
+
+            <div class="bars-box">
+                <h3>CSS</h3>
+                <span>80%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar css-bar"></div>
+            </div>
+
+            <div class="bars-box">
+                <h3>JavaScript</h3>
+                <span>70%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar js-bar"></div>
+            </div>
+
+            <div class="bars-box">
+                <h3>Bootstrap</h3>
+                <span>80%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar Bootstrap-bar"></div>
+            </div>
+
+            <div class="bars-box">
+                <h3>React Js</h3>
+                <span>40%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar AngularJs-bar"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Skills Section End -->
+<!-- Projects Section Start -->
+<section class="Projects" id="proj">
+    <div class="heading">
+        <h2>Projects</h2>
+        <span>MY Projects</span>
+    </div>
+    <div class="project-content">
+
+        <div class="project-box">
+            <i class='bx bx-qr'></i>
+            <h3>QR code generator for weblink</h3>
+        </div>
+
+        <div class="project-box">
+            <i class='bx bx-user'></i>
+            <h3>Personal Portfolio</h3>
+        </div>
+
+        <div class="project-box">
+            <i class='bx bx-lock-open-alt'></i>
+            <h3>Login/Registration page</h3>
+        </div>
+
+        <div class="project-box">
+            <i class='bx bx-cloud'></i>
+            <h3>Weather App Website</h3>
+        </div>
+
+        <div class="project-box">
+            <i class='bx bx-fingerprint'></i>
+            <h3>Random Password generator</h3>
+        </div>
+
+        <div class="project-box">
+            <i class='bx bx-stopwatch'></i>
+            <h3>StopWatch</h3>
+        </div>
+    </div>
+</section>
+<!-- project Section End -->
+
+<!-- Contact Section Start -->
+<section class="contact" id="contact">
+    <div class="heading">
+        <h2>Contact</h2>
+        <span>Connect With Us</span>
+    </div>
+    <div class="contact-form">
+        <form id="contact-me">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" name="" id="email" placeholder="Your Email">
+            <textarea name="" id="message" cols="20" rows="10" placeholder="Write Message Here..."></textarea>
+            <button type="submit" class="contact-button">Send message</button>
+        </form>
+    </div>
+ </section>
+   <!-- Contact Section End -->
+  <div class="copyright">
+          © Rahul Yadav | All Right Reserved.</p>
+  </div>
+        <!-- Javascript -->
+<script src="main.js"></script>
+</body>
+</html>
+
