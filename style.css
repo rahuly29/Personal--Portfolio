@@ -215,8 +215,46 @@ header.shadow {
   font-weight: 400;
   margin-left: 1rem;
 }
-
 .skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  justify-items: center;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 160px;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.skill-card i {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: var(--main-color); /* Use your theme color */
+}
+
+.skill-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+}
+/* .skills-container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   align-items: center;
@@ -282,7 +320,7 @@ span {
 
 .AngularJs-bar {
   width: 50%;
-}
+} */
 
 .project-content {
   display: grid;
