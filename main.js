@@ -58,3 +58,8 @@ darkmode.onclick = () => {
 //       alert("There was an error sending your message.");
 //     });
 // });
+
+const btn = document.getElementById("subBtn");
+btn.addEventListener("click", function(){
+  alert("Message can't be send, Please email on yadavrahul2910@outlook.com");
+})
